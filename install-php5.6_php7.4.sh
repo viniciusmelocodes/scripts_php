@@ -13,7 +13,7 @@ echo '\n>>>>>>>>>>> Update 3 <<<<<<<<<<<'
 apt update
 echo '\n>>>>>>>>>>> Versão PHP <<<<<<<<<<<'
 php -v
-echo '\n>>>>>>>>>>> PHP 5.6 para PHP 7.4 <<<<<<<<<<<'
+echo '\n>>>>>>>>>>> PHP 7.4 para PHP 5.6 <<<<<<<<<<<'
 sudo a2dismod php7.4
 sudo a2enmod php5.6
 sudo service apache2 restart
