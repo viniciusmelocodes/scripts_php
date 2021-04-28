@@ -8,7 +8,7 @@ apt install -y php5.6 php5.6-cli php5.6-common php5.6-curl php5.6-mysql php5.6-g
 echo '\n>>>>>>>>>>> Update 2 <<<<<<<<<<<'
 apt update
 echo '\n>>>>>>>>>>> PHP 7.4 <<<<<<<<<<<'
-apt install -y php7.4 php7.4-cli php7.4-common php7.4-curl php7.4-mysql php7.4-gd php7.4-mbstring php7.4-xml
+apt install -y php7.4 php7.4-cli php7.4-common php7.4-curl php7.4-mysql php7.4-gd php7.4-mbstring php7.4-xml composer
 echo '\n>>>>>>>>>>> Update 3 <<<<<<<<<<<'
 apt update
 echo '\n>>>>>>>>>>> Versão PHP <<<<<<<<<<<'
